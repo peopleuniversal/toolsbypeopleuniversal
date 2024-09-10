@@ -1,10 +1,8 @@
 import os, sys, time
-
-def ClearText():
-    os.system("clear")
     
 def menu():
-    
+    os.system("clear")
+    time.sleep(4)
     print("#################################")
     print("## TOOLS BY MAGISKPEOPLE       ##")
     print("## PLS DON'T USE TERMUX        ##")
@@ -23,7 +21,7 @@ def menu():
     if tools =="1":
         print("Please wait for second!")
         time.sleep(3)
-        os.system("cls")
+        os.system("clear")
         time.sleep(3)
         os.system("git clone https://github.com/sherlock-project/sherlock.git")
         print("𝙳𝚘𝚗𝚎 𝙸𝚗𝚜𝚝𝚊𝚕𝚕 >>>>>>> 𝟷𝟶𝟶%")
@@ -71,10 +69,11 @@ def menu():
         print("𝙳𝚘𝚗𝚎 𝙸𝚗𝚜𝚝𝚊𝚕𝚕 >>>>>>> 𝟷𝟶𝟶%")
 
     elif tools =="0":
-        os.system("cls")
+        os.system("clear")
         print("Please Wait 3s")
         time.sleep(3)
         os.system("exit")
+
     else:
         print("𝙿𝚕𝚎𝚊𝚜𝚎 𝙸𝚗𝚙𝚞𝚝 𝙽𝚞𝚖𝚋𝚎𝚛 𝚅𝚊𝚕𝚒𝚍 !!!")
         time.sleep(4)
