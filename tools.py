@@ -72,6 +72,7 @@ def menu():
         os.system("exit")
 
     else:
+        os.system("clear")
         print("Pls Input Number Valid...!!!")
         time.sleep(4)
         os.system("clear")
