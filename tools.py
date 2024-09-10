@@ -25,8 +25,9 @@ def menu():
         os.system("clear")
         time.sleep(3)
         os.system("git clone https://github.com/sherlock-project/sherlock.git")
-        print("𝙳𝚘𝚗𝚎 𝙸𝚗𝚜𝚝𝚊𝚕𝚕 >>>>>>> 𝟷𝟶𝟶%")
         time.sleep(3)
+        os.system("clear")
+        os.system("python tools.py")
     
     if tools =="2":
         os.system("apt update && apt upgrade")
