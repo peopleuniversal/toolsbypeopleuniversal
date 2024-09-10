@@ -11,8 +11,6 @@ def menu():
     print("#################################")
     time.sleep(3)
     print("")
-    print("GitHub Tools Open Source I'm Creating Tools And Learning Code.")
-    print("")
     print("[1] Sharelock Location")
     print("[2] LITEDDOS")
     print("[3] SpiderBot")
@@ -35,6 +33,7 @@ def menu():
         os.system("pkg install git")
         os.system("pkg install python2")
         os.system("git clone https://github.com/4L13199/LITEDDOS")
+        time.sleep(4)
         os.system("clear")
         os.system("python tools.py")
 
@@ -74,5 +73,7 @@ def menu():
     else:
         print("Pls Input Number Valid...!!!")
         time.sleep(4)
-        sys.exit()
+        os.system("clear")
+        os.system("python tools.py")
+        
 menu()
