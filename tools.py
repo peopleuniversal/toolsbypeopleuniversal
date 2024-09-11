@@ -96,7 +96,9 @@ def menu():
     # number exit(0)
     elif tools =="0":
         os.system("clear")
+        time.sleep(3)
         print("Please Wait 3s...!!!")
+        os.system("clear")
         time.sleep(3)
         print("\033[0;32mBye Don't Forget Follow My Github...!!!")
         time.sleep(2)
