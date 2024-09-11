@@ -25,14 +25,13 @@ def menu():
     # number 1
     if tools =="1":
         os.system("clear")
-        print("\033[0;37mPlease wait for second!")
-        time.sleep(2)
+        print("\033[0;37mPlease wait for second...!!!")
+        time.sleep(3)
         os.system("clear")
-        time.sleep(1)
         os.system("git clone https://github.com/sherlock-project/sherlock.git")
         os.system("clear")
         print("Done All Install...")
-        time.sleep(2)
+        time.sleep(4)
         os.system("clear")
         os.system("python tools.py")
 
@@ -45,7 +44,7 @@ def menu():
         os.system("git clone https://github.com/4L13199/LITEDDOS")
         os.system("clear")
         print("Done All Install...")
-        time.sleep(3)
+        time.sleep(4)
         os.system("python tools.py")
 
     # number 3
@@ -89,19 +88,18 @@ def menu():
         os.system("git clone https://github.com/rickyfazaa/MySPAMBot-OTP")
         os.system("clear")
         print("Done All Install....")
-        time.sleep(3)
+        time.sleep(4)
         os.system("clear")
         os.system("python tools.py")
 
     # number exit(0)
     elif tools =="0":
         os.system("clear")
-        time.sleep(3)
         print("Please Wait 3s...!!!")
-        os.system("clear")
         time.sleep(3)
+        os.system("clear")
         print("\033[0;32mBye Don't Forget Follow My Github...!!!")
-        time.sleep(2)
+        time.sleep(3)
         os.system("exit")
         
     # command wrong!
