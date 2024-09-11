@@ -99,7 +99,7 @@ def menu():
         os.system("clear")
         print("Please Wait 3s...!!!")
         time.sleep(3)
-        print("\033[0;32mBye Don't Forget Follow Media Social")
+        print("\033[0;32mBye Don't Forget Follow My Github...!!!")
         time.sleep(2)
         os.system("exit")
         
