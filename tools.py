@@ -20,7 +20,7 @@ def menu():
     print("[5] SpamBotOTP")
     print("[0] Exit")
     time.sleep(2)
-    tools = input("\033[0;30mInput Number : ")
+    tools = input("\033[0;32mInput Number : ")
 
     # number 1
     if tools =="1":
