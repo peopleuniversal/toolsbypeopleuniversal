@@ -18,7 +18,7 @@ Termux Command
 - ls
 - python toolsbymagiskpeople.py
 
-[ README ]
+README
 -
 _This tool is a simple creation of the Python language,
 use my tools as usefully as possible, don't use them for evil purposes.
