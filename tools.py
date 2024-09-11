@@ -4,11 +4,11 @@ def menu():
     os.system("clear")
     time.sleep(4)
     print("")
-    print("#################################")
-    print("## Tools By @magiskpeople      ##")
-    print("## Instagram @magiskpeople     ##")
-    print("## Copyright@github.com        ##")
-    print("#################################")
+    print("*********************************")
+    print("**  Tools By @magiskpeople     **")
+    print("**  Instagram @magiskpeople    **")
+    print("**  Copyright@github.com       **")
+    print("*********************************")
     time.sleep(3)
     print("")
     print("[1] Sharelock Location")
@@ -18,8 +18,9 @@ def menu():
     print("[0] Exit")
     time.sleep(2)
     print("")
-    tools = input("Input Number : ")
+    tools = input("[ Input Number ] >> ")
     if tools =="1":
+        os.system("clear")
         print("Please wait for second!")
         time.sleep(3)
         os.system("clear")
@@ -30,6 +31,7 @@ def menu():
         os.system("python tools.py")
     
     if tools =="2":
+        os.system("clear")
         os.system("apt update && apt upgrade")
         os.system("pkg install git")
         os.system("pkg install python2")
@@ -39,6 +41,7 @@ def menu():
         os.system("python tools.py")
 
     if tools =="3":
+        os.system("clear")
         os.system("apt update && apt upgrade")
         os.system("apt install php")
         os.system("apt install git")
@@ -57,6 +60,7 @@ def menu():
         os.system("python tools.py")
 
     if tools =="4":
+        os.system("clear")
         os.system("pkg update && pkg upgrade")
         os.system("pkg install git")
         os.system("git clone https://github.com/4L13199/LITETOOLS")
