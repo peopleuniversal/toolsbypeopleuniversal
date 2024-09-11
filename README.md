@@ -1,4 +1,4 @@
-`[ Kali-Linux Command ]`
+[ Kali-Linux Command ]
 - 
 - apt update && apt upgrade -y
 - apt install python3 or python2 -y
@@ -9,7 +9,7 @@
 
 _______________________________________________________________
 
-`[ Termux Command ]`
+[ Termux Command ]
 - 
 - pkg update && pkg upgrade -y
 - pkg install python -y
